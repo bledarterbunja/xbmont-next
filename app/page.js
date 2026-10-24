@@ -22,6 +22,18 @@ const gallery = [
     description:
       "Moisture-resistant tiles designed for a clean and modern bathroom look.",
   },
+  {
+    image: "/img/charlesdeluvio-LyQi9DS7AEg-unsplash.jpg",
+    title: "Kitchen Tiles",
+    description:
+      "Heat-resistant tiles that combine durability with contemporary design.",
+  },
+  {
+    image: "/img/charlesdeluvio-LyQi9DS7AEg-unsplash.jpg",
+    title: "Outdoor Tiles",
+    description:
+      "Slip-resistant tiles built to withstand all weather conditions.",
+  },
 ];
 
 const features = [
