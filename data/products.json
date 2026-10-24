@@ -1,0 +1,30 @@
+[
+  {
+    "id": "interior-design",
+    "name": "Interior design",
+    "description": "Placeholder text",
+    "image": "/img/charlesdeluvio-LyQi9DS7AEg-unsplash.jpg",
+    "published": true
+  },
+  {
+    "id": "flooring",
+    "name": "Flooring",
+    "description": "Placeholder text",
+    "image": "/img/tile-floor.jpg",
+    "published": true
+  },
+  {
+    "id": "space-planning",
+    "name": "Space planning",
+    "description": "Placeholder text",
+    "image": "/img/interior-designer-working-on-new-600nw-2340696285.webp",
+    "published": true
+  },
+  {
+    "id": "consultation",
+    "name": "Consultation",
+    "description": "Placeholder text",
+    "image": "/img/flor.webp",
+    "published": false
+  }
+]
