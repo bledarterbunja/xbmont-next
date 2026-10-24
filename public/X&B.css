@@ -4,6 +4,115 @@ body {
   scroll-padding-top: 0;
 }
 
+:root {
+  --royal-blue: #171c72;
+  --royal-blue-light: #4c4cfc;
+  --ink: #100e09;
+}
+
+.site-header {
+  background-color: var(--royal-blue);
+}
+
+.brand {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.site-header .nav a {
+  color: #fff;
+}
+
+.site-header .banner {
+  color: #fff;
+}
+
+.site-header .banner h1 {
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  margin: 1rem 0;
+}
+
+.site-header .banner p {
+  font-size: 1.2rem;
+}
+
+.about-section {
+  background-color: var(--royal-blue);
+  background-image: url("img/adadsd.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  min-height: 70vh;
+  padding: 8rem 0;
+}
+
+.about-section .container {
+  background: rgba(16, 14, 9, 0.8);
+  padding: 4rem;
+}
+
+.about-section .col {
+  width: 60%;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.service h2 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.service .more,
+.view-btn {
+  background-color: var(--royal-blue-light);
+  color: #fff;
+}
+
+.contact .title p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .nav .container {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem 8%;
+  }
+
+  .nav .container ul {
+    flex-wrap: wrap;
+  }
+
+  .service {
+    width: 90%;
+  }
+
+  .service .container .row {
+    flex-direction: column;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .service .container .row .col {
+    width: 100%;
+  }
+
+  .about-section .col,
+  .contact {
+    width: 90%;
+  }
+
+  .about-section .container {
+    padding: 2rem;
+    width: 90%;
+  }
+}
+
 * {
   scroll-behavior: smooth;
 }
